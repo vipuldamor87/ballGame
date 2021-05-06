@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener2 {
         }
 
         init {
-            val ballSrc = BitmapFactory.decodeResource(resources, R.drawable.ball)
+            val ballSrc = BitmapFactory.decodeResource(resources, R.drawable.ic_launcher_foreground)
             val dstWidth = 100
             val dstHeight = 100
             ball = Bitmap.createScaledBitmap(ballSrc, dstWidth, dstHeight, true)
